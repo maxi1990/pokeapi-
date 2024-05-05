@@ -40,8 +40,8 @@ function mostrarPokemon(poke) {
     
                            </div>
                             <div class="pokemon-stats">
-                               <p class="stat">${poke.height}</p>
-                              <p class="stat">${poke.weight}kg</p>
+                               <p class="stat">${poke.height} m</p>
+                              <p class="stat">${poke.weight} kg</p>
                             </div>
                         </div>`
                         listaPokemon.append(div)
